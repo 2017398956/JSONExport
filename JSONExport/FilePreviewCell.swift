@@ -70,7 +70,7 @@ class FilePreviewCell: NSTableCellView, NSTextViewDelegate {
         scrollView.hasVerticalRuler = true
         scrollView.verticalRulerView = lineNumberView
         scrollView.rulersVisible = true
-        textView.font = NSFont.userFixedPitchFont(ofSize: NSFont.smallSystemFontSize)
+        textView.font = NSFont.userFixedPitchFont(ofSize: 20)
         
     }
     

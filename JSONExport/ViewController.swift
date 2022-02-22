@@ -122,7 +122,7 @@ class ViewController: NSViewController, NSUserNotificationCenterDelegate, NSTabl
         scrollView.hasVerticalRuler = true
         scrollView.verticalRulerView = lineNumberView
         scrollView.rulersVisible = true
-        sourceText.font = NSFont.userFixedPitchFont(ofSize: NSFont.smallSystemFontSize)
+        sourceText.font = NSFont.userFixedPitchFont(ofSize: 20)
         
     }
     
