@@ -36,3 +36,30 @@ build/
 *.dep
 
 Breakpoints.xcbkptlist
+
+# 从网上找的 iOS .gitignore 模板
+# Xcode
+.DS_Store
+build
+report.xml
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+#CocoaPods
+Pods
+Podfile.lock
+xcschemes
+
